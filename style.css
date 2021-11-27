@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin:0;
+
+} 
+/* ------ navbar ------ */
+
+
+/*-----body section---*/
+h2.heading{
+    color:#616161;
+    font:39px "Open Sans";
+    margin: 0px 0px 15px;
+    font-size: 39px;
+    line-height: 1.3 !important;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.img-responsive{
+  float: right;
+  height: 85%;
+    padding-bottom: 30px;
+    padding-left: 3px;
+}
+
+#review{
+    text-shadow: #616161;
+    text-decoration:underline;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    padding-left:2px;
+    background-color: #d86595;
+}
+
+.img{
+  float: right;
+}
+#about,ol{
+    padding-left: 10px;
+}
+.col-md-6{
+    text-align: left;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap');
+
+
+.wrapper .header{
+	width: 100%;
+	height: 50px;
+	background: #e36686;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 900;
+}
+
+.cards_wrap{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cards_wrap .card_item{
+	padding: 15px 25px;
+	width: 25%;
+}
+
+.cards_wrap .card_inner{
+	background: #fff;
+	border-radius: 5px;
+	padding: 35px 20px;
+	min-width: 225px;
+	min-height: 315px;
+	max-height: 370px;
+	width: 100%;
+}
+
+.cards_wrap .card_item img{
+	width: 80px;
+	height: 190px;
+	margin-bottom: 5px;
+}
+
+.cards_wrap .card_item .role_name{
+	color: #e36686;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 20px;
+	white-space: nowrap;
+    
+    text-overflow: ellipsis;
+}
+
+.cards_wrap .card_item .real_name{
+	color: #b6c0c2;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 5px 0 10px;
+}
+
+.cards_wrap .card_item .film{
+	font-size: 14px;
+	line-height: 24px;
+	color: #7b8ca0;
+}
+
+@media screen and (max-width: 1024px){
+	.cards_wrap .card_item{
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.cards_wrap .card_item{
+		width: 50%;
+	}
+	.wrapper .header{
+		font-size: 16px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 568px){
+	.cards_wrap .card_item{
+		width: 100%;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+}
+
+/* ------ navbar ------ */
+
+.navbar{
+    background-color:	#B0F7E8;
+}
+/* .navbar .nav-link{
+    color: white;
+} */
+.navbar-nav{
+    padding-right: 20px;  
+}
+.navbar-nav button{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar-nav button:hover{
+    color: rgb(107, 90, 86);
+}
+/*------ end of navbar ------*/
+ul{
+      list-style-type: none;
+  }
+   li a{
+      color:black ;
+      border-bottom: none;
+  } 
+  li a:hover{
+      color: rgb(83, 7, 7);
+      border-bottom: none;
+  }
+.copyright{
+    background-color: rgb(226, 242, 248);
+    text-align: center;
+}
+
+/*------ end of footer ------*/
+@media screen and (max-width: 768px) {
+    /* ------popup------ */
+    
+    .login-popup .box{
+            width: calc(100% - 30px);
+        }
+        .login-popup .box .img-area{
+            display: none;
+        }
+        .login-popup .box .form{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    
+    /* ------ navbar ------ */
+    
+    .navbar img{
+        max-width: 130px;
+        max-height: 43px;
+    }
+    .navbar button{
+        font-size: 18px;
+    }
+    .navbar .button1{
+        padding: -30px;
+    }
+   
+    .copyright{
+        padding: 0px;
+    }
+    } 
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* google */
+  .fa-google {
+    background: #b32816;
+    color: white;
+  }
+  
+  /* linkedin */
+  .fa-linkedin {
+    background: #021d31;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* youtube */
+  .fa-youtube {
+    background: #881125;
+    color: white;
+  }
+  
+  /* instagram */
+  .fa-instagram {
+    background: #d86595;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* skype */
+  .fa-skype {
+    background: #3B5998;
+    color: white;
+  }
+  .publish{
+    background-image: url("/images/136-1363109_orange-wave-transparent-png-clipart-png-download-transparent.png");
+    opacity: 0.7;
+  }
+  .back{
+    background-image: url("/images/images\ \(1\).jpg");
+  }
+.trans{
+  background-image: url("/images/images\ \(2\).jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  opacity: 0.7;
+  padding-bottom: 100px;
+}
+.word{
+  font-style: italic;
+  color: #01060c;
+}
+.write{
+  color: #01060a;
+  font-style: bold;
+}
+.views{
+  font-size:30px;
+}
